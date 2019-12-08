@@ -1,0 +1,244 @@
+/* Here is some styling for the entirety of the page */
+    body {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-family: sans-serif;
+        font-size: 16px;
+        line-height: 1.5em;
+    }
+
+/* Here is style for the navigation bar */
+    .Navbar {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .logo {
+        margin-right: 6px;
+    }
+
+    .Buttons {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .Buttons > .nav-item {
+        margin: 1.5em;
+        text-decoration: none;
+        color: black;
+    }
+
+/* Here is the style for the Hero */
+    #jumbotron {
+        background-image: url("images/FEW-hero-image.jpg");
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 350px;
+        margin-bottom: 10px;
+    }
+
+    #jumbotron > .text > h1{
+        display: flex;
+        justify-content: center;
+    }
+
+    #jumbotron > .text > h3{
+        display: flex;
+        justify-content: center;
+        color: black;
+    }
+
+/* Here is style for the cards */
+    #cards {
+        display: flex;
+        justify-content: center;
+    }
+    .card {
+        width: 340px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin: 1em;
+    }
+
+    .card h3, .card p {
+        padding: 0 1rem;
+    }
+
+    .card p {
+        margin-top: 0;
+    }
+
+    .img-header {
+        height: 120px;
+        overflow: hidden;
+    }
+
+    .card button {
+        padding: 1em;
+        background-color: #66AFEB;
+        color: white;
+        border: none;
+        border-radius: 0.25em;
+        margin: 0 0 1em 0;
+        width: 100px;
+        justify-self: center;
+        align-self: center;
+    }
+
+    #cards > .card > img {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        overflow: hidden;
+        width: 340px;
+        height: 200px
+    }
+
+    #cards > .card > button > a {
+        text-decoration: none;
+        color: white;
+    } 
+
+/* Here is style for the about section */
+    #long-image {
+        background-image: url("images/open-ocean_hero.jpg");
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 350px;
+        margin-bottom: 8px;
+        margin-top: 8px;
+    }
+
+    #long-image > .text {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 8px;
+    }
+
+    #long-image > .text > h1, p{
+        display: flex;
+        justify-content: center;
+        color: black;
+    }
+
+/* Here is the style for the video and text portion */
+    #vid-and-text {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin-top: 10px;
+        margin-left: 8px;
+    }
+    
+    #vid-and-text > .text {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #vid-and-text > .video > iframe {
+        display: flex;
+        justify-content: center;
+        width: calc(100vw/3);
+        height: 250px;
+        margin-left: 8px;
+        border: none;
+    }
+
+/* Here is the style for the forms */
+    #wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2em;
+        width: 100%;
+        max-width: 600px;
+    }
+
+    input, textarea {
+        font-size: 1em;
+        padding: 0.75em;
+    }
+
+    input[type=file] {
+        display: none;
+    }
+
+    label[for=input-file] {
+        border: 1px solid;
+        padding: 1em;
+        border-radius: 0.25em;
+        text-align: center;
+    }
+
+    textarea {
+        box-sizing: border-box;
+        width: 100%;
+        height: 6em;
+    }
+
+    label {
+        display: flex;
+        flex-direction: column;
+    }
+
+    label.h {
+        flex-direction: row;
+        align-items: center;
+        margin: 0.25em 0 0.25em 0;
+    }
+
+    input[type=text], input[type=email], input[type=date], input[type=number] {
+        border: 1px solid #666;
+        margin: 1em 0;
+        border-radius: 0.25em;;
+    }
+
+    input[type=radio], input[type=checkbox], input[type=file] {
+        
+    }
+
+    input > span {
+        margin: 0 0 0 1em;
+    }
+
+    button[type=submit] {
+        padding: 1em;
+        background-color: #66AFEB;
+        color: white;
+        border: none;
+        border-radius: 0.25em;
+        margin: 0 0 1em 0;
+        width: 100px;
+        justify-self: center;
+        align-self: center;
+    }
+
+    form > section {
+        margin: 0.5em 0;
+    }
+
+    form > section:last-child {
+        align-self: center;
+    }
