@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Pick Up</title>
+        <title>Pick Up/rewards</title>
 
         <!-- Link to personalized styles -->
         <link rel="stylesheet" href="style.css">
@@ -23,96 +23,111 @@
             </div>
         </div> 
 
+        <!-- Hero -->
+        <div id="hero">
+            <div class="text">
+                <h1>Rewards</h1>
+            </div>
+        </div>
 
         <!-- Info cards -->
         <div id="cards">
             <div class="card">
-                <img src="images/sea-bin.jpg">
+                <img src="images/200.jpg">
             
-                <h3>Seabin</h3>
+                <h3>200 Points</h3>
             
-                <p>The Seabin Project aims to create floating oceanic trashbins. At 
-                    the moment, the project has released the Seabin V5, a sea bin for 
-                    marinas. This device pumps water into it and intercepts trash. This 
-                    fairly simple device can caputure around 1.4 tons of debris each 
-                    year while only having a running cost of $3 a day. </p>
+                <p>After picking up 40 pounds of trash, you will earn 200 points! With
+                    that number of points you will be able to redeem them for a $5 gift
+                    card/voucher at Itunes or Amazon.
+                </p>
                 
-                <button><a href="https://seabinproject.com">Go to website!</a></button>
+                <button> <a href="#sign-up"> Sign up! </a></button>
             </div>
             
             <div class="card">
-                <img src="images/the-ocean-cleanup.jpg">
+                <img src="images/500.jpg">
             
-                <h3>The Ocean Cleanup</h3>
+                <h3>500 Points</h3>
                 
-                <p>This company aspires to cleanup around 50% of the trash of the 
-                    Great Pacific Garbage Patch in 5 years. They are creating 
-                    artificial floating coastlines in the middle of the ocean that 
-                    will concentrate the plastic in order to make it easier to then 
-                    pick up. This system consists of a long buoy that keeps the system 
-                    afloat with a net attached beneath it that traps smaller partiles 
-                    and stops them from floating under and away.</p>
+                <p>After picking up 100 pounds of trash, you will earn 500 points! With
+                    that number of points you will be able to redeem them for a $20 gift
+                    card/voucher at Itunes, Amazon, Sephora or Nike.</p>
                 
-                <button><a href="https://theoceancleanup.com">Go to website!</a></button>
+                <button> <a href="#sign-up"> Sign up! </a></button>
             </div>
             
             <div class="card">
-                <img src="images/5-gyres.jpg">
+                <img src="images/1000.jpg">
                 
-                <h3>5 Gyres</h3>
+                <h3>1000 Points</h3>
 
-                <p>5 Gyres is an organization that aspires to find solutions to the 
-                    problem that is plastic. Their tactic is to use science and 
-                    research as a weapon against the use of plastic. Their research 
-                    on identifying plastic microbeads has influenced President Obama 
-                    in signing the Microbead-Free Waters Act.</p>
+                <p>After picking up 200 pounds of trash, you will earn 1000 points! With
+                    that number of points you will be able to redeem them for a $50 gift
+                    card/voucher at Itunes, Amazon, Sephora, Nike, Playstation, Nintendo,
+                    or Apple! With the biggest reward, you will also be able to submit a
+                    picture for us to post on our social media account for all to see how
+                    you are helping save the earth!</p>
                 
-                <button><a href="https://www.5gyres.org">Go to website!</a></button>
+                <button> <a href="#sign-up"> Sign up! </a></button>
             </div>
         </div>
 
-        <!-- Contact form -->
-        <div id="wrapper">
-            <form action="#" method="post">
+        <!-- Sign up section -->
+        <div id="sign-up">
+            <div class="text">
+                <h2>Sign up!</h2>
+                <p>
+                    Sign up and get rewards for picking up trash! Submit videos of 
+                    you throwing away the trash you pick up and earn 5 points per 
+                    pound thrown away. Get diffrent levels of rewards based on the 
+                    amount of points you have. Sign up and earn today!
+                </p>
+            </div>
+        </div>
 
-                <section>
-                <label class="h" for="radio-admin">
-                    <span>Prefix</span>
-                    <select name="prefix">
-                    <option>Mr</option>
-                    <option>Mrs</option>
-                    <option>Ms</option>
-                    <option>Sir</option>
-                    <option>Madam</option>
-                    <option>Dr</option>
-                    <option>None</option>
-                    </select>
-                </label>
-                </section>
+            <!-- Contact form -->
+            <div id="wrapper">
+                <form action="#" method="post">
 
-                <section>
-                <label>
-                    <span>Name</span>
-                    <input name="name" type="text" placeholder="Your name">
-                </label>
-                
-                <label>
-                    <span>Email</span>
-                    <input name="email" type="email" placeholder="email">
-                </label>
-                
-                <label>
-                    <span>Birthday</span>
-                    <input name="birthday" type="date" placeholder="birthday">
-                </label>
-                </section>
-                
-                <section>
-                <button type="submit">Submit</button>
-                </section>
+                    <section>
+                    <label class="h" for="radio-admin">
+                        <span>Prefix</span>
+                        <select name="prefix">
+                        <option>Mr</option>
+                        <option>Mrs</option>
+                        <option>Ms</option>
+                        <option>Sir</option>
+                        <option>Madam</option>
+                        <option>Dr</option>
+                        <option>None</option>
+                        </select>
+                    </label>
+                    </section>
+
+                    <section>
+                    <label>
+                        <span>Name</span>
+                        <input name="name" type="text" placeholder="Your name">
+                    </label>
                     
-            </form>
-        </div>
+                    <label>
+                        <span>Email</span>
+                        <input name="email" type="email" placeholder="email">
+                    </label>
+                    
+                    <label>
+                        <span>Birthday</span>
+                        <input name="birthday" type="date" placeholder="birthday">
+                    </label>
+                    </section>
+                    
+                    <section>
+                    <button type="submit">Submit</button>
+                    </section>
+                        
+                </form>
+            </div>
 
         <!-- Footer -->
         <div class="Footer">

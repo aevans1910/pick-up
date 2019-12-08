@@ -134,6 +134,18 @@
 
 /* Here is some styling for the rewards page */
 
+    /* Here is some styling or the hero */
+    #hero > .text{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #hero > .text > h1{
+        display: flex;
+        justify-content: center;
+    }
+
      /* Here is style for the cards */
      #cards {
         display: flex;
@@ -185,6 +197,20 @@
         text-decoration: none;
         color: white;
     } 
+
+    /* Here is the style for the sign up section */
+    #sign-up > .text{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #sign-up > .text > h2, p{
+        display: flex;
+        justify-content: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }  
 
     /* Here is the style for the forms */
     #wrapper {
