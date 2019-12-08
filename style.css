@@ -76,6 +76,7 @@
             display: flex;
             justify-content: center;
             flex-direction: column;
+            margin: 1em;
         }
 
         #img-and-text > .image> img{
@@ -85,6 +86,50 @@
             height: 200px;
             margin-left: 8px;
             border: none;
+        }
+
+        #img-and-text > .text-and-button {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin: 1em;
+        }
+
+        .text-and-button button {
+            padding: 1em;
+            background-color: #66AFEB;
+            color: white;
+            border: none;
+            border-radius: 0.25em;
+            margin: 0 0 1em 0;
+            width: 100px;
+            justify-self: center;
+            align-self: center;
+        }
+
+        #img-and-text > .text-and-button > section > button > a {
+            text-decoration: none;
+            color: white;
+        } 
+
+    /* Here is style for the navigation bar */
+        .Footer {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+        }
+
+        .Buttons {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .Buttons > .footer-item {
+            margin: 1.5em;
+            text-decoration: none;
+            color: black;
         }
 
 /* Here is some styling for the rewards page */
