@@ -16,10 +16,10 @@
                 <img src="images/logo.jpg" width="auto" height="75">
             </a> -->
             <div class="Buttons">
-                <a class="nav-item nav-link" href="#cards">Home</a>
-                <a class="nav-item nav-link" href="#long-image">Location</a>
-                <a class="nav-item nav-link" href="#vid-and-text">Rewards</a>
-                <a class="nav-item nav-link" href="#wrapper">Account</a>
+                <a class="nav-item nav-link" href="index.html">Home</a>
+                <a class="nav-item nav-link" href="location.html">Location</a>
+                <a class="nav-item nav-link" href="rewards.html">Rewards</a>
+                <a class="nav-item nav-link" href="account.html">Account</a>
             </div>
         </div> 
 
@@ -76,6 +76,21 @@
             <form action="#" method="post">
 
                 <section>
+                <label class="h" for="radio-admin">
+                    <span>Prefix</span>
+                    <select name="prefix">
+                    <option>Mr</option>
+                    <option>Mrs</option>
+                    <option>Ms</option>
+                    <option>Sir</option>
+                    <option>Madam</option>
+                    <option>Dr</option>
+                    <option>None</option>
+                    </select>
+                </label>
+                </section>
+
+                <section>
                 <label>
                     <span>Name</span>
                     <input name="name" type="text" placeholder="Your name">
@@ -93,43 +108,21 @@
                 </section>
                 
                 <section>
-                <label class="h" for="radio-admin">
-                    <span>Prefix</span>
-                    <select name="prefix">
-                    <option>Mr</option>
-                    <option>Mrs</option>
-                    <option>Ms</option>
-                    <option>Sir</option>
-                    <option>Madam</option>
-                    <option>Dr</option>
-                    <option>None</option>
-                    </select>
-                </label>
-                </section>
-                
-                <section>
-                <label class="h">
-                    <input type="checkbox" name="public">
-                    <span>Write a message</span>
-                </label>
-                </section>
-                
-                <section>
-                <textarea name="bio"></textarea>
-                </section>
-                
-                <section>
-                <label for="input-file">
-                    <input name="image" type="file" id="input-file">
-                    Upload Image
-                </label>
-                </section>
-                
-                <section>
                 <button type="submit">Submit</button>
                 </section>
                     
             </form>
         </div>
+
+        <!-- Footer -->
+        <div class="Footer">
+            <div class="Buttons">
+                <a class="nav-item nav-link" href="index.html">About us</a>
+                <a class="nav-item nav-link" href="location.html">Where are you?</a>
+                <a class="nav-item nav-link" href="rewards.html">About rewards</a>
+                <a class="nav-item nav-link" href="rewards.html">Sign up</a>
+                <a class="nav-item nav-link" href="account.html">Sign in</a>
+            </div>
+        </div> 
     </body>
 </html>

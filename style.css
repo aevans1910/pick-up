@@ -1,4 +1,4 @@
-/* Here is some styling for the entirety of the page */
+/* Here is some styling for the home page */
     body {
         display: flex;
         justify-content: center;
@@ -8,63 +8,89 @@
         line-height: 1.5em;
     }
 
-/* Here is style for the navigation bar */
-    .Navbar {
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-    }
+    /* Here is style for the navigation bar */
+        .Navbar {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+        }
 
-    .logo {
-        margin-right: 6px;
-    }
+        .logo {
+            margin-right: 6px;
+        }
 
-    .Buttons {
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        align-items: center;
-    }
+        .Buttons {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            align-items: center;
+        }
 
-    .Buttons > .nav-item {
-        margin: 1.5em;
-        text-decoration: none;
-        color: black;
-    }
+        .Buttons > .nav-item {
+            margin: 1.5em;
+            text-decoration: none;
+            color: black;
+        }
 
-/* Here is the style for the Hero */
-    #jumbotron {
-        background-image: url("images/hero.jpg");
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        width: 100%;
-        height: 350px;
-        margin-bottom: 10px;
-    }
+    /* Here is the style for the Hero */
+        #jumbotron {
+            background-image: url("images/hero.jpg");
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            height: 350px;
+            margin-bottom: 10px;
+        }
 
-    #jumbotron > .text{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
+        #jumbotron > .text{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
 
-    #jumbotron > .text > h1{
-        display: flex;
-        justify-content: center;
-    }
+        #jumbotron > .text > h1{
+            display: flex;
+            justify-content: center;
+        }
 
-    #jumbotron > .text > h3{
-        display: flex;
-        justify-content: center;
-        color: black;
-    }
+        #jumbotron > .text > h3{
+            display: flex;
+            justify-content: center;
+            color: black;
+        }
 
-/* Here is style for the cards */
-    #cards {
+    /* Here is the style for the image and text portion */
+        #img-and-text {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            margin-top: 20px;
+            margin-left: 8px;
+        }
+        
+        #img-and-text > .text {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        #img-and-text > .image> img{
+            display: flex;
+            justify-content: flex-end;
+            width: auto;
+            height: 200px;
+            margin-left: 8px;
+            border: none;
+        }
+
+/* Here is some styling for the rewards page */
+
+     /* Here is style for the cards */
+     #cards {
         display: flex;
         justify-content: center;
     }
@@ -115,59 +141,7 @@
         color: white;
     } 
 
-/* Here is style for the about section */
-    #long-image {
-        background-image: url("images/open-ocean_hero.jpg");
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        width: 100%;
-        height: 350px;
-        margin-bottom: 8px;
-        margin-top: 8px;
-    }
-
-    #long-image > .text {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        margin-left: 8px;
-    }
-
-    #long-image > .text > h1, p{
-        display: flex;
-        justify-content: center;
-        color: black;
-    }
-
-/* Here is the style for the image and text portion */
-    #img-and-text {
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        margin-top: 20px;
-        margin-left: 8px;
-    }
-    
-    #img-and-text > .text {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    #img-and-text > .image> img{
-        display: flex;
-        justify-content: flex-end;
-        width: auto;
-        height: 200px;
-        margin-left: 8px;
-        border: none;
-    }
-
-/* Here is the style for the forms */
+    /* Here is the style for the forms */
     #wrapper {
         display: flex;
         justify-content: center;
