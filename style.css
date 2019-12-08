@@ -34,7 +34,7 @@
 
 /* Here is the style for the Hero */
     #jumbotron {
-        background-image: url("images/FEW-hero-image.jpg");
+        background-image: url("images/hero.jpg");
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -44,6 +44,12 @@
         width: 100%;
         height: 350px;
         margin-bottom: 10px;
+    }
+
+    #jumbotron > .text{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
 
     #jumbotron > .text > h1{
@@ -137,26 +143,26 @@
         color: black;
     }
 
-/* Here is the style for the video and text portion */
-    #vid-and-text {
+/* Here is the style for the image and text portion */
+    #img-and-text {
         display: flex;
         justify-content: center;
         flex-direction: row;
-        margin-top: 10px;
+        margin-top: 20px;
         margin-left: 8px;
     }
     
-    #vid-and-text > .text {
+    #img-and-text > .text {
         display: flex;
         justify-content: center;
         flex-direction: column;
     }
 
-    #vid-and-text > .video > iframe {
+    #img-and-text > .image> img{
         display: flex;
-        justify-content: center;
-        width: calc(100vw/3);
-        height: 250px;
+        justify-content: flex-end;
+        width: auto;
+        height: 200px;
         margin-left: 8px;
         border: none;
     }
