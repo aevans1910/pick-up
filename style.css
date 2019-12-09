@@ -208,8 +208,8 @@
     #sign-up > .text > h2, p{
         display: flex;
         justify-content: center;
-        padding-left: 20px;
-        padding-right: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
     }  
 
     /* Here is the style for the forms */
@@ -292,4 +292,42 @@
 
     form > section:last-child {
         align-self: center;
+    }
+
+/* Here is some styling for the location page */
+
+    /* Here is some styling for the hero */
+    #hero > .text{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #hero > .text > h1{
+        display: flex;
+        justify-content: center;
+    }
+
+    #hero > .text > p{
+        display: flex;
+        justify-content: center;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    svg {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Here is some styling for the map */
+
+    #map {
+        display: flex;
+        justify-content: center;
+    }
+
+    #map > img {
+        height: 500px;
+        width: auto;
     }
