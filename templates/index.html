@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -6,22 +6,17 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Pick Up</title>
 
-        <!-- Link to personalized styles -->
-        <link rel="stylesheet" href="style.css">
+        Link to personalized styles -->
+        <!-- <link rel="stylesheet" href="style.css">
     </head>
-    <body>
-        <!-- Navbar -->
-        <div class="Navbar">
-            <!-- <a class="logo" href="#jumbotron">
-                <img src="images/logo.jpg" width="auto" height="75">
-            </a> -->
-            <div class="Buttons">
-                <a class="nav-item nav-link" href="index.html">Home</a>
-                <a class="nav-item nav-link" href="location.html">Location</a>
-                <a class="nav-item nav-link" href="rewards.html">Rewards</a>
-                <a class="nav-item nav-link" href="account.html">Account</a>
-            </div>
-        </div> 
+    <body></body> -->
+
+{% extends 'base.html' %}
+
+{% block title %} Pick Up {% endblock %}
+
+{% block content %}
+<main role="main" class="container" style="margin-top: 4vh;">
 
         <!-- Hero -->
         <div id="jumbotron">
@@ -45,14 +40,14 @@
                 </p>
             </div>
             <div class="image">
-                <img src="images/litter2.jpg">
+                <img src="/static/images/litter2.jpg">
             </div>
         </div>
 
         <!-- Image and text 2-->
         <div id="img-and-text">
             <div class="image">
-                <img src="images/litter.jpg">
+                <img src="/static/images/litter.jpg">
             </div>
             <div class="text-and-button">
                 <div class="text">
@@ -80,5 +75,5 @@
                 <a class="footer-item footer-link" href="account.html">Sign in</a>
             </div>
         </div> 
-    </body>
-</html>
+</main>
+{% endblock %}

@@ -34,7 +34,7 @@
 
     /* Here is the style for the Hero */
         #jumbotron {
-            background-image: url("images/hero.jpg");
+            background-image: url("/static/images/hero.jpg");
             display: flex;
             justify-content: center;
             flex-direction: column;
