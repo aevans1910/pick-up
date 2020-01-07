@@ -1,27 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Pick Up</title>
+{% extends 'base.html' %}
 
-        <!-- Link to personalized styles -->
-        <link rel="stylesheet" href="static/style.css">
-    </head>
-    <body>
-        <!-- Navbar -->
-        <div class="Navbar">
-            <!-- <a class="logo" href="#jumbotron">
-                <img src="images/logo.jpg" width="auto" height="75">
-            </a> -->
-            <div class="Buttons">
-                <a class="nav-item nav-link" href="index.html">Home</a>
-                <a class="nav-item nav-link" href="location.html">Location</a>
-                <a class="nav-item nav-link" href="rewards.html">Rewards</a>
-                <a class="nav-item nav-link" href="account.html">Account</a>
-            </div>
-        </div> 
+{% block title %} Pick Up {% endblock %}
+
+{% block content %}
+
+<main role="main" class="container" style="margin-top: 4vh;">
 
         <!-- Hero -->
         <div id="hero">
@@ -72,18 +55,5 @@
                     
             </form>
         </div>
-
-        <!-- Footer -->
-        <div class="Footer">
-            <div class="Buttons">
-                <a class="nav-item nav-link" href="index.html">About us</a>
-                <a class="nav-item nav-link" href="location.html">Where are you?</a>
-                <a class="nav-item nav-link" href="rewards.html">About rewards</a>
-                <a class="nav-item nav-link" href="rewards.html">Sign up</a>
-                <a class="nav-item nav-link" href="account.html">Sign in</a>
-            </div>
-        </div> 
-
-    </body>
-</html>
+</main>
 
