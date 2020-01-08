@@ -1,5 +1,11 @@
 import os
 from flask import Flask, render_template
+from pymongo import MongoClient
+
+client = MongoClient()
+db = client.PickUp
+pickups = db.pickups
+
 app = Flask(__name__)
 
 @app.route('/')
