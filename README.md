@@ -14,8 +14,11 @@ This website has now become a full stack website, which means that individuals c
 ## Running the code
 
 To download this code to your machine, you must get the clone link at the top of the page, then execute this code in your terminal:
+
 git clone git@github.com/user:repo
+
 cd repo && npm install
+
 npm start
 
 ## Code structure
