@@ -16,9 +16,11 @@ body {
             background-color: gainsboro;
         }
 
-        .logo {
-            margin-right: 6px;
-        }
+        .navbar-brand > a {
+            color: black;
+            text-decoration: none;
+            background-color: transparent;
+        } 
 
         .Buttons {
             display: flex;
@@ -28,6 +30,27 @@ body {
         }
 
         .Buttons > .nav-item {
+            margin: 1.5em;
+            text-decoration: none;
+            color: black;
+        }
+    
+    /* Here is style for the footer */
+        .Footer {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            background-color: gainsboro;
+        }
+
+        .Buttons {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .Buttons > .footer-item {
             margin: 1.5em;
             text-decoration: none;
             color: black;
@@ -114,25 +137,23 @@ body {
             color: white;
         } 
 
-    /* Here is style for the navigation bar */
-        .Footer {
+/* Here is some styling for the trash pick up page */
+
+        /* Here is the style for the sign up/location section */
+        #sign-up > .text{
             display: flex;
             justify-content: center;
-            flex-direction: row;
+            flex-direction: column;
         }
 
-        .Buttons {
+        #sign-up > .text > h2, p{
             display: flex;
+            flex-direction: column;
             justify-content: center;
-            flex-direction: row;
-            align-items: center;
-        }
+            margin-left: 50px;
+            margin-right: 50px;
+        }  
 
-        .Buttons > .footer-item {
-            margin: 1.5em;
-            text-decoration: none;
-            color: black;
-        }
 
 /* Here is some styling for the rewards page */
 
@@ -199,20 +220,6 @@ body {
         text-decoration: none;
         color: white;
     } 
-
-    /* Here is the style for the sign up section */
-    #sign-up > .text{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    #sign-up > .text > h2, p{
-        display: flex;
-        justify-content: center;
-        margin-left: 50px;
-        margin-right: 50px;
-    }  
 
     /* Here is the style for the forms */
     #wrapper {
