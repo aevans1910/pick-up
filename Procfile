@@ -1,1 +1,1 @@
-gunicorn mysite.wsgi:application
+gunicorn pick-up-website.wsgi:application
