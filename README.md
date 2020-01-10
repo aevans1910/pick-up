@@ -1,7 +1,7 @@
 ## Pick Up - Cleaning the planet one piece of trash at a time
 
-This code represents the dynamic prototype of the website Pick Up, a website that entices
-people to pick up trash as they go about their daily lives. 
+This code has been uipdated to represent a starting version of the fullstack website Pick Up, a website that entices
+people to pick up trash as they go about their daily lives by rewarding them with points that they may redeem for gift cards. 
 
 ## Motivation
 
@@ -9,15 +9,20 @@ I want to make the earth a cleaner and better place. With talks of global warmin
 
 ## Where this is now
 
-At the moment, this is still simply a dynamic prototype. This means that although users can click buttons to go to diffrent pages, they are still unable to truly create an account or upload anything.
+This website has now become a full stack website, which means that individuals can click to change pages and can fill out the forms that will then process the data to populate pages. In the future I will set up user authentication and map and email APIs. 
 
 ## Running the code
 
-To run this on your local machine, you must simply click on the github.io link in the page's repo 
+To download this code to your machine, you must get the clone link at the top of the page, then execute this code in your terminal:
+git clone git@github.com/user:repo
+cd repo && npm install
+npm start
 
 ## Code structure
 
-- All the images are in an image file
+- All the images are in a static file
+- Templates were used to create structure
 - Personal styling was created with CSS
 - The structure of the website was made in HTML
-- All the images on the Rewards page was made with Painter Essentials 7
+- All the images on the Rewards page were made with Painter Essentials 7
+- Flask, MongoDB, and Jinja were used for the back end of this website
