@@ -21,6 +21,12 @@ cd repo && npm install
 
 npm start
 
+Once an individual has cloned the repo into their own machine, if they are on the working directory of this project, they may also type 
+
+flask run
+
+into their terminal.
+
 ## Code structure
 
 - All the images are in a static file
