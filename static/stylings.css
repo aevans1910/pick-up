@@ -199,7 +199,7 @@ body {
             display: flex;
             justify-content: center;
             flex-direction: column;
-            margin: 20px;
+            margin: 30px;
         }
 
         .pickups > .new-pickup {
@@ -208,10 +208,9 @@ body {
             flex-direction: column;
         }
 
-        .pickups > .new-pickup > a, p, h2 {
+        .pickups > .new-pickup > a, p, h5 {
             display: flex;
             justify-content: center;
-            flex-direction: column;
         }
 
 /* Here is some styling for the rewards page */
