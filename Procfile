@@ -1,1 +1,1 @@
-gunicorn pick-up-website.wsgi:application
+web: gunicorn pick-up-website.wsgi --log-file -
