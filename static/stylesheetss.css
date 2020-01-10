@@ -160,6 +160,7 @@ body {
         #hero > .text > h3{
             display: flex;
             justify-content: center;
+            margin-top: 20px;
         }
 
         svg {
@@ -208,9 +209,15 @@ body {
             flex-direction: column;
         }
 
-        .pickups > .new-pickup > a, p, h5 {
+        .pickups > .new-pickup > h2, h5 {
             display: flex;
             justify-content: center;
+        }
+
+        .pickups > .new-pickup-link > a{
+            display: flex;
+            justify-content: center;
+            margin: 15px;
         }
 
 /* Here is some styling for the rewards page */
