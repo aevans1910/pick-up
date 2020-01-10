@@ -199,22 +199,22 @@ body {
             display: flex;
             justify-content: center;
             flex-direction: column;
+            margin: 20px;
         }
 
-        .new-pickup {
+        .pickups > .new-pickup {
             display: flex;
             justify-content: center;
             flex-direction: column;
         }
 
-        .new-pickup > a {
+        .pickups > .new-pickup > a, p, h2 {
             display: flex;
             justify-content: center;
             flex-direction: column;
         }
 
 /* Here is some styling for the rewards page */
-
     /* Here is some styling or the hero */
         #hero > .text{
             display: flex;
