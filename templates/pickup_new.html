@@ -24,11 +24,10 @@
     <!-- New link -->
     <a href='/trashpickup'>New Pick Up</a>
 
-    {% for pickup in pickups %}
-    <h2>{{ pickup.account }}</h2>
-    <small>{{ pickup.pick-up }}</small>
-    <small>{{ pickup.drop-off }}</small>
-    {% endfor %}
+    
+    <h2>{{ pickup.username }}</h2>
+    <small>{{ pickup.pick_up }}</small> 
+    <small>{{ pickup.drop_off }}</small>
 </main>
 {% endblock %}
 

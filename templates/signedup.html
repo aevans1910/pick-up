@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block title %} Pick Up {% endblock %}
+
+{% block content %}
+
+<main role="main" class="container" style="margin-top: 4vh;">
+
+    <!-- Hero -->
+    <div id="hero">
+        <div class="text">
+            <h1>Sign Up</h1>
+        </div>
+    </div>
+
+    <!-- Sign up section -->
+    <div id="sign-up">
+        <div class="text">
+            <p>
+                Sign up and get rewards for picking up trash! Submit videos of 
+                you throwing away the trash you pick up and earn 5 points per 
+                pound thrown away. Get diffrent levels of rewards based on the 
+                amount of points you have. Sign up and earn today!
+            </p>
+        </div>
+    </div>
+
+    <!-- Thank you section -->
+    <div id="thank-you">
+        <div class="text">
+            <h2>Thank you!</h2>
+            <p>{{ signup.name }}, you have successfully signed up for Pick Up! You will have received a confirmation email, please check your inbox
+                for it to be able to sign in.</p>
+        </div>
+    </div>
+
+</main>
+{% endblock %}

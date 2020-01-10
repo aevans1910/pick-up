@@ -1,18 +1,19 @@
-/* Here is some styling for the home page */
-    body {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        font-family: sans-serif;
-        font-size: 16px;
-        line-height: 1.5em;
-    }
+/* Here is some styling for base.html */
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+}
 
     /* Here is style for the navigation bar */
         .Navbar {
             display: flex;
             justify-content: center;
             flex-direction: row;
+            background-color: gainsboro;
         }
 
         .logo {
@@ -32,6 +33,7 @@
             color: black;
         }
 
+/* Here is some styling for the home page */
     /* Here is the style for the Hero */
         #jumbotron {
             background-image: url("/static/images/hero.jpg");
