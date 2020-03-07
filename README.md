@@ -1,6 +1,6 @@
 ## Pick Up - Cleaning the planet one piece of trash at a time
 
-This code has been uipdated to represent a starting version of the fullstack website Pick Up, a website that entices
+This code has been updated to represent a starting version of the fullstack website Pick Up, a website that entices
 people to pick up trash as they go about their daily lives by rewarding them with points that they may redeem for gift cards. 
 
 ## Motivation
